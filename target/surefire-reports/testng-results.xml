@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-08T12:49:45 IST" name="Surefire suite" finished-at="2024-09-08T12:50:44 IST" duration-ms="58203">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submit(java.util.HashMap)[pri:0, instance:Udemyacademy.PageObjects.SubmitOrderTest@460d0a57]" name="submit" class="Udemyacademy.PageObjects.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-09-08T12:49:45 IST" name="Surefire test" finished-at="2024-09-08T12:50:44 IST" duration-ms="58203">
+      <class name="Udemyacademy.PageObjects.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Udemyacademy.PageObjects.SubmitOrderTest@460d0a57]" started-at="2024-09-08T12:49:46 IST" name="launchApp" finished-at="2024-09-08T12:49:59 IST" duration-ms="13130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submit(java.util.HashMap)[pri:0, instance:Udemyacademy.PageObjects.SubmitOrderTest@460d0a57]" started-at="2024-09-08T12:49:59 IST" name="submit" data-provider="getData" finished-at="2024-09-08T12:50:14 IST" duration-ms="14485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Learning@123, product=ZARA COAT 3, email=shree@email.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:Udemyacademy.PageObjects.SubmitOrderTest@460d0a57]" started-at="2024-09-08T12:50:14 IST" name="closeApp" finished-at="2024-09-08T12:50:16 IST" duration-ms="2315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:Udemyacademy.PageObjects.SubmitOrderTest@460d0a57]" started-at="2024-09-08T12:50:16 IST" name="launchApp" finished-at="2024-09-08T12:50:25 IST" duration-ms="9320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submit(java.util.HashMap)[pri:0, instance:Udemyacademy.PageObjects.SubmitOrderTest@460d0a57]" started-at="2024-09-08T12:50:25 IST" name="submit" data-provider="getData" finished-at="2024-09-08T12:50:40 IST" duration-ms="14856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Learning@123, product=IPHONE 13 PRO, email=abc@hotmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:Udemyacademy.PageObjects.SubmitOrderTest@460d0a57]" started-at="2024-09-08T12:50:40 IST" name="closeApp" finished-at="2024-09-08T12:50:44 IST" duration-ms="3277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Udemyacademy.PageObjects.SubmitOrderTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

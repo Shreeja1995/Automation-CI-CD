@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite   name="Parallel run">
+
+<listeners>
+<listener class-name="Udemyacademy.TestComponents.Listeners"></listener>
+ </listeners>
+ 
+  <!-- Test for Error Validations -->
+  <test thread-count="5" name="ErrorValidation">
+    <classes>
+    
+      <class name="Udemyacademy.PageObjects.ErrorValidations">
+     <methods>
+     <include name="loginErrorValidation">
+     </include>
+     <include name="productErrorValidation">
+     
+      </include>
+     </methods>
+    </class>
+    </classes>
+  </test> <!-- Test -->
+
+
+<!-- Test for Submit Orders -->
+  <test thread-count="5" name="SubmitOrder">
+    <classes>
+    
+      <class name="Udemyacademy.PageObjects.SubmitOrderTest"/>
+       <methods>
+                    <include name="getData">
+                        <parameter name="dataProvider" value="getData"/>
+                    </include>
+                </methods>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  <!-- Optional: Uncomment if using groups -->
+  <!--
+  <groups>
+    <run>
+      <include name="Purchase"/>
+    </run>
+  </groups>
+  -->
+
+</suite> <!-- Suite -->
