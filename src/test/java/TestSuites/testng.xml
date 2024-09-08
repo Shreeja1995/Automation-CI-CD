@@ -11,8 +11,7 @@
   <test thread-count="5" name="ErrorValidation">
     <classes>
     
-      <class name="Udemyacademy.
-.ErrorValidations">
+      <class name="Udemyacademy.PageObjects.ErrorValidations">
      <methods>
      <include name="loginErrorValidation">
      </include>
